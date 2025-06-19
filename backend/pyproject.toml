@@ -1,0 +1,16 @@
+[project]
+version = "0.1.0"
+name = "e-commerce-backend"
+description = "Backend for an e-commerce website"
+authors = [
+    { name = "Vaibhav Dange", email = "dangevaibhav21@gmail.com" },
+    { name = "Tanya Thakur", email = "dtanyathakur01@gmail.com" },
+]
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "asyncpg",
+    "sqlalchemy",
+    "psycopg[binary]"
+]
+requires-python = ">=3.10"
