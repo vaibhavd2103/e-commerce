@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "FastAPI + PostgreSQL + Docker"}
+    return {"message": "E commerce backend running!"}
